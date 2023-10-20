@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/main.css" />
+</head>
+
+<body>
+  <div class="play-list-page">
+    <div id="overlay"></div>
+    <!-- Begin: Login -->
+    <div class="login-box">
+      <button class="close-btn">X</button>
+      <h2 class="title">Đăng nhập</h2>
+      <div class="login-box-container">
+        <div class="login-box-left">
+          <div class="login-container">
+            <form action="" class="login-form">
+              <div class="required-text">
+                Những thông tin có đánh dấu (*) là bắt buộc nhập.
+              </div>
+              <div class="form-group">
+                <label for="">Tên đăng nhập <span style="color: red">*</span></label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Mật khẩu <span style="color: red">*</span></label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for=""></label>
+                <a href="" class="btn-login-submit" title="Đăng nhập">Đăng nhập</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="login-box-right">
+          <div class="no-acc">
+            <span class="alert-user">Bạn chưa có tài khoản NCT ID?</span>
+            <div class="box-show-btn">
+              <a href="" title="Đăng ký ngay" class="btn-register">Đăng ký ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End: Login -->
+
+    <!-- Begin: Signup -->
+    <div class="signup-box">
+      <button class="close-btn">X</button>
+      <h2 class="title">Đăng ký</h2>
+      <div class="signup-box-container">
+        <div class="signup-box-left">
+          <div class="singup-container">
+            <form action="" class="signup-form">
+              <div class="required-text">
+                Những thông tin có đánh dấu (*) là bắt buộc nhập.
+              </div>
+              <div class="form-group">
+                <label for="">Tên đăng nhập <span style="color: red">*</span></label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Mật khẩu <span style="color: red">*</span></label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Nhập lại mật khẩu <span style="color: red">*</span></label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="">Email <span style="color: red">*</span></label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for=""></label>
+                <a href="" class="btn-login-submit" title="Đăng nhập">Đăng ký mới</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="login-box-right">
+          <div class="no-acc">
+            <span class="alert-user">Bạn đã có tài khoản NCT ID?</span>
+            <div class="box-show-btn">
+              <a href="" title="Đăng ký ngay" class="btn-register">Đăng nhập ngay</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End: Signup -->
+    <header id="header">
+      <div class="container">
+        <div class="header-container">
+          <div class="header-left">
+            <div class="logo">
+              <a class="logo-link" title="Nghe Nhạc MP3 Online 320kps mới nhất"
+                alt="Nghe Nhac MP3 Online 320kps moi nhat" href="/">
+                <img src="https://stc-id.nixcdn.com/v11/images/header_new/logo_new.png" alt="Logo" class="logo-img" />
+              </a>
+            </div>
+            <div>
+              <a href="https://beta.nhaccuatui.com/" class="tag" target="_blank">
+                <img class="tag-img" src="https://stc-id.nixcdn.com/v11/images/ic_new.png" alt="" />
+              </a>
+            </div>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="">Bài Hát</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Việt Nam</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Âu Mỹ</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Châu Á</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Khác</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="">Playlist</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Việt Nam</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Âu Mỹ</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Châu Á</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Khác</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="">Tuyển tập</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Thẻ Loại</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Tâm Trạng</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li>
+                        <a href="" class="submenu-header">Khung Cảnh</a>
+                      </li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                    <ul class="submenu-list">
+                      <li><a href="" class="submenu-header">Chủ Đề</a></li>
+                      <li><a href="">Nhạc Trẻ</a></li>
+                      <li><a href="">Trữ Tình</a></li>
+                      <li><a href="">Remix Việt</a></li>
+                      <li><a href="">Rap Việt</a></li>
+                      <li><a href="">Tiền Chiến</a></li>
+                      <li><a href="">Nhạc Trịnh</a></li>
+                      <li><a href="">Rock Việt</a></li>
+                      <li><a href="">Cách mạng</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="">Video</a></li>
+              <li class="menu-item"><a href="">BXH</a></li>
+              <li class="menu-item"><a href="">Top 100</a></li>
+            </ul>
+          </div>
+          <div class="header-right">
+            <div class="search-container">
+              <form action="" class="search-form">
+                <button class="btn-search"></button>
+                <input type="text" placeholder="Tìm kiếm" class="search-input" autocomplete="off" maxlength="45" />
+              </form>
+            </div>
+            <div class="header-payment">
+              <a href="">
+                <div class="payment-btn"></div>
+              </a>
+            </div>
+            <div class="header-upload">
+              <a href="">
+                <div class="upload-btn"></div>
+              </a>
+            </div>
+            <div class="line-space-profile"></div>
+            <div class="user-login-box">
+              <div class="user-login">
+                <button href="" class="login-btn">Đăng nhập</button>
+                <button href="" class="signup-btn">Đăng ký</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="box-content">
+      <div class="container">
+        <div class="bread-crumb">
+          <span><a href="" alt="nghe nhac" title="nghe nhạc">Nghe nhạc</a></span>
+          ›
+          <span><a href="" alt="nghe nhac" title="nghe nhạc">Playlist Nhạc trẻ</a></span>
+          ›
+          <span><a href="" alt="nghe nhac" title="nghe nhạc">V.A</a></span>
+        </div>
+        <div class="album-name">Ballad Việt-VA</div>
+        <div id="main-player">
+          <div class="cover-image" style="
+                background: url('https://avatar-ex-swe.nixcdn.com/playlist/2023/08/30/8/d/4/9/1693363958862_500.jpg')
+                  left center / contain no-repeat;
+              "></div>
+          <audio id="myAudio"></audio>
+          <div class="controls">
+            <div class="progress-bar">
+              <div id="progress" class="progress"></div>
+            </div>
+            <div class="option-group">
+              <div class="option-group-left">
+                <button id="prevButton" class="prev">
+                  <iconify-icon icon="ph:skip-back-fill"></iconify-icon>
+                </button>
+                <button id="playButton" class="play">
+                  <iconify-icon icon="ph:play-fill"></iconify-icon>
+                </button>
+                <button id="pauseButton" class="pause">
+                  <iconify-icon icon="mdi:pause"></iconify-icon>
+                </button>
+                <button id="nextButton" class="next">
+                  <iconify-icon icon="fluent:next-16-filled"></iconify-icon>
+                </button>
+                <div class="time-info">
+                  <span id="currentTime">0:00</span> / <span id="totalTime">0:00</span>
+                </div>
+              </div>
+              <div class="option-group-right">
+                <button id="shuffleButton" class="shuffle"><iconify-icon icon="ph:shuffle" width="24"
+                    height="24"></iconify-icon></button>
+                <button id="repeatButton" class="repeat"><iconify-icon icon="tabler:repeat"></iconify-icon></button>
+                <div class="volume-change" style="display: flex; align-items: center;">
+                  <iconify-icon icon="raphael:volume2" style="color:white; font-size: 24px;"></iconify-icon>
+                  <input id="volumeSlider" type="range" min="0" max="1" step="0.01" value="1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="playlist">
+          <ul id="playlist">
+            <li data-src="./assets/music/TinhCu-KhaiDang-11028650.mp3">
+              <span><span class="number">1. </span>Tình Cũ</span>
+              <span class="singer-name">- Khải Đăng</span>
+            </li>
+            <li data-src="./assets/music/NgayMaiNguoiTaLayChong-ThanhDat-9466823.mp3">
+              <span>
+                <span class="number">2. </span>
+                Ngày Mai Người Ta Lấy Chồng
+                <span class="singer-name">- Thành Đạt</span>
+              </span>
+            </li>
+            <li data-src="./assets/music/EmOiDungDi-KhaiDang-10996778.mp3"><span><span class="number">3. </span>
+                Em ơi đừng đi
+                <span class="singer-name">- Khải Đăng</span>
+              </span>
+            </li>
+            <li data-src="./assets/music/SaoCungDuoc-ThanhDat-8072594.mp3"><span><span class="number">4. </span>Sao Cũng
+                Được
+                <span class="singer-name">- Thành Đạt</span>
+              </span>
+            </li>
+            <li data-src="./assets/music/MuaThangSau-VanMaiHuongGREYDTrungQuanIdol-9534954.mp3"><span><span
+                  class="number">5. </span>Mưa Tháng Sáu</span>
+              <span class="singer-name">- Văn Mai Hương, GREY D, Trung Quân</span>
+            </li>
+            <li data-src="./assets/music/DaiMinhTinh-VanMaiHuongHuaKimTuyen-11747544.mp3"><span><span class="number">6.
+                </span>Đại Minh Tinh</span>
+              <span class="singer-name">- Văn Mai Hương, Hứa Kim Tuyến</span>
+            </li>
+            <li data-src="./assets/music/TuNgayAnhXa-KhoiMyKaisoul-11526339.mp3"><span><span class="number">7. </span>Từ
+                Ngày Anh Xa</span>
+              <span class="singer-name">- Khởi My</span>
+            </li>
+            <li data-src="./assets/music/TuNgayAnhXa-KhoiMyKaisoul-11526339.mp3"><span><span class="number">8. </span>Ý
+                Trời</span>
+              <span class="singer-name">- Đông Nhi, tlinh</span>
+            </li>
+            <!-- Thêm các mục danh sách phát khác tại đây -->
+          </ul>
+        </div>
+        <div class="play-list-left col-9">
+          <div class="list-album-wrap">
+            <h2 class="heading">Playlist | Album</h2>
+            <div class="list-album">
+              <div class="album-item">
+                <a href="./playlist.html">
+                  <div class="album-thumbnail">
+                    <div class="blur"></div>
+                    <span class="icon-play"></span>
+                    <img src="https://avatar-ex-swe.nixcdn.com/playlist/2023/08/30/8/d/4/9/1693363958862_300.jpg"
+                      alt="" />
+                  </div>
+                </a>
+                <div class="album-name">
+                  <a href="">Ballad Việt</a>
+                </div>
+              </div>
+              <div class="album-item">
+                <a href="">
+                  <div class="album-thumbnail">
+                    <div class="blur"></div>
+                    <span class="icon-play"></span>
+                    <img src="	https://avatar-ex-swe.nixcdn.com/playlist/2023/07/24/0/a/9/5/1690181737778_300.jpg"
+                      alt="" />
+                  </div>
+                </a>
+                <div class="album-name">
+                  <a href="">Remix Việt</a>
+                </div>
+              </div>
+              <div class="album-item">
+                <a href="">
+                  <div class="album-thumbnail">
+                    <div class="blur"></div>
+                    <span class="icon-play"></span>
+                    <img src="	https://avatar-ex-swe.nixcdn.com/playlist/2023/09/26/d/b/b/4/1695717438386_300.jpg"
+                      alt="" />
+                  </div>
+                </a>
+                <div class="album-name">
+                  <a href="">Indie Việt</a>
+                </div>
+              </div>
+              <div class="album-item">
+                <a href="">
+                  <div class="album-thumbnail">
+                    <div class="blur"></div>
+                    <span class="icon-play"></span>
+                    <img src="https://avatar-ex-swe.nixcdn.com/playlist/2023/08/30/8/d/4/9/1693363958862_300.jpg"
+                      alt="" />
+                  </div>
+                </a>
+                <div class="album-name">
+                  <a href="">Ballad Việt</a>
+                </div>
+              </div>
+              <div class="album-item">
+                <a href="">
+                  <div class="album-thumbnail">
+                    <div class="blur"></div>
+                    <span class="icon-play"></span>
+                    <img src="https://avatar-ex-swe.nixcdn.com/playlist/2023/08/30/8/d/4/9/1693363958862_300.jpg"
+                      alt="" />
+                  </div>
+                </a>
+                <div class="album-name">
+                  <a href="">Ballad Việt</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Begin:Footer -->
+      <footer id="footer">
+        <div class="cooperation">
+          <div class="container">
+            <h2>LIÊN KẾT VÀ HỢP TÁC</h2>
+            <div class="cooperation-list">
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-1.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-2.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-3.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-4.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-2.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-3.png" alt="" />
+                </a>
+              </div>
+              <div class="cooperation-item">
+                <a href="">
+                  <img src="./assets/img/cooperation-4.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="footer-container">
+            <div class="navigation">
+              <p class="title">Hỗ trợ</p>
+              <div class="navigation-item">
+                <ul class="navi-list">
+                  <li>Trợ giúp</li>
+                  <li>Sơ đồ</li>
+                  <li>NCCI</li>
+                  <li>Liên hệ quảng cáo</li>
+                </ul>
+                <ul class="navi-list">
+                  <li>Chính sách bảo mật</li>
+                  <li>Chính sách SHTT</li>
+                  <li>Thỏa thuận sử dụng</li>
+                </ul>
+              </div>
+            </div>
+            <div class="navigation">
+              <p class="title">Sản phẩm khác</p>
+              <div class="navigation-item">
+                <ul class="navi-list">
+                  <li>Mobile App</li>
+                  <li>Mobile Web</li>
+                  <li>NCCI</li>
+                  <li>Liên hệ quảng cáo</li>
+                </ul>
+                <ul class="navi-list">
+                  <li>Dịch vụ 3G</li>
+                  <li>NCT Corp</li>
+                  <li>Tuyển dụng</li>
+                </ul>
+              </div>
+            </div>
+            <div class="navigation">
+              <p class="title">Sản phẩm khác</p>
+              <div class="navigation-item">
+                <ul class="navi-list">
+                  <li>Mobile App</li>
+                  <li>Mobile Web</li>
+                  <li>NCCI</li>
+                  <li>Liên hệ quảng cáo</li>
+                </ul>
+                <ul class="navi-list">
+                  <li>Dịch vụ 3G</li>
+                  <li>NCT Corp</li>
+                  <li>Tuyển dụng</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End:Footer -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <script src="./assets/main.js"></script>
+</body>
+
+</html>
